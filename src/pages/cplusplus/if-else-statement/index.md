@@ -121,6 +121,73 @@ Enter a number :
 You entered a negative number : -200
 This step is always printed
 ```
+----------------------------------------------------
+*If you want to have more than one if statement, you can use if-else statements to test the expression 
+
+----------------------------------------------------
+General Form if if-else statements 
+
+  If test expression(if) is true:
+
+```cpp
+
+  int a=10;
+  if (a<20)
+{
+  //execute code of block
+}
+else if (a>20)
+{
+  //skip code of block 
+}
+else
+{
+ //skip code of block
+}
+  //program continues
+
+```
+
+If test expression is false, but true for else-if 
+
+```cpp 
+  int a=10; 
+  if (a<20) 
+  { 
+  //skip code of block 
+  }
+  
+  else if (a>20)
+  {
+  //execute code of block 
+  }
+  else 
+  { 
+  //skip line of code
+  }
+  //program continues
+  ....
+  
+  
+If text expression is false and false for the else-if condition 
+```cpp 
+  int a=10; 
+  if(a<20) 
+  {
+  //skip code of block
+  }
+  else if (a>20) 
+  {
+  //skip code of block
+  } 
+  else 
+  {
+  //execute code of block 
+  }
+  //program continues 
+  .... 
+  
+-------------------------------------------------------------------
 
 <a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
 _CONGRATULATIONS . This is the end of the article on the IF statement_ 
